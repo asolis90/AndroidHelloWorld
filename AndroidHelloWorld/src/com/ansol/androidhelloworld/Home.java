@@ -13,6 +13,7 @@ public class Home extends Activity {
         setContentView(R.layout.main);
         
         TextView tv = (TextView) findViewById(R.id.textView1);
+        //Set text for TextView
         tv.setText("Hello World");
         
         
